@@ -1,0 +1,28 @@
+package Logica;
+
+public class Instanciar {
+
+    public static void main(String[] args) {
+       
+       Squirtle squirtle = new Squirtle ();
+       Charmander charmander = new Charmander ();
+       Bulbasaur bulba = new Bulbasaur ();
+       Pikachu pika = new Pikachu();
+       
+       pika.atacarImpactrueno();
+       pika.atacarAraniazo();
+       pika.atacarPunioTrueno();
+       charmander.atacarAraniazo();
+       charmander.atacarLanzallamas();
+       charmander.atacarAscuas();
+       squirtle.atacarAraniazo();
+       squirtle.atacarHidrobomba();
+       squirtle.atacarPistolaAgua();
+
+       bulba.atacarAraniazo();
+       bulba.atacarDrenaje();
+
+
+    }
+    
+}
